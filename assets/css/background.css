@@ -1,0 +1,106 @@
+/* -------------- background settings ---------------*/
+.bg-image {
+    background: url('https://github.com/joaooliveirarocky/Imagens_teste/blob/master/web/bg.png?raw=true');
+    background-size: no-repeat;
+    max-width: 100vw;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+
+.intro {
+    background: url('https://github.com/joaooliveirarocky/Imagens_teste/blob/master/web/s1%20ft1.png?raw=true')  top/contain;
+    background-size: cover;
+    position: center center;
+    height: 100vh;
+    top: 0;
+    display: flex;
+}
+
+.s1 {
+    background-image: url('https://github.com/joaooliveirarocky/Imagens_teste/blob/master/web/s3%20ft1.png?raw=true');
+}
+
+.s2 {
+    background-image: url('https://github.com/joaooliveirarocky/Imagens_teste/blob/master/web/s3%20ft2.png?raw=true');
+}
+
+.s3 {
+    background-image: url('https://github.com/joaooliveirarocky/Imagens_teste/blob/master/web/s3%20ft3.png?raw=true'); 
+}
+
+.s4 {
+    background-image: url('https://github.com/joaooliveirarocky/Imagens_teste/blob/master/web/s4%20ft1.png?raw=true');
+
+}
+
+.s5 {
+    background-image: url('https://github.com/joaooliveirarocky/Imagens_teste/blob/master/web/s4%20ft2.png?raw=true');
+}
+
+.s6 {
+    background-image: url('https://github.com/joaooliveirarocky/Imagens_teste/blob/master/web/s4%20ft3.png?raw=true');
+}
+
+
+ .s1, .s2, .s3, .s4, .s5, .s6 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+    border-radius: 2rem;
+    max-width: calc(50% - 0.75rem);
+    height: auto;
+
+}
+
+/*----------------------- // -------------------------*/
+
+/* -------------- Mobile background settings ---------------*/
+
+.s1-mobile {
+    background-image: url('https://github.com/joaooliveirarocky/Imagens_teste/blob/master/mobile/s3%20ft1.png?raw=true');
+}
+
+.s2-mobile {
+    background: url('https://github.com/joaooliveirarocky/Imagens_teste/blob/master/mobile/s3%20ft2.png?raw=true');
+}
+
+.s3-mobile {
+    background: url('https://github.com/joaooliveirarocky/Imagens_teste/blob/master/mobile/s3%20ft3.png?raw=true');
+}
+
+.s4-mobile {
+    background: url('https://github.com/joaooliveirarocky/Imagens_teste/blob/master/mobile/s4%20ft1.png?raw=true');
+}
+
+.s5-mobile {
+    background: url('https://github.com/joaooliveirarocky/Imagens_teste/blob/master/mobile/s4%20ft2.png?raw=true');
+}
+
+.s6-mobile {
+    background: url('https://github.com/joaooliveirarocky/Imagens_teste/blob/master/mobile/s4%20ft3.png?raw=true');
+}
+
+.s1-mobile, .s2-mobile, .s3-mobile, .s4-mobile, .s5-mobile, .s6-mobile {
+    display: block;
+    background-size: contain ;
+    background-repeat: no-repeat;
+    background-position: top center;
+    position: relative;
+    padding: 5rem;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+
